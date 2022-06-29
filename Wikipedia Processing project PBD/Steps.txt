@@ -21,3 +21,7 @@ Step 4:Remove special character
 	from sklearn.feature_extraction.text import TfidfVectorizer
 	from sklearn.cluster import KMeans
 	from sklearn.metrics import adjusted_rand_score
+	
+	
+Link to download Articles: http://kopiwiki.dsd.sztaki.hu/
+note: use bit torrent to download the english version of the articles.
