@@ -1,0 +1,23 @@
+Step 1:
+import all the articles.
+
+Disclaimer: My machine is not powerfull enough to process the whole dataset of 4000+ wikipedia articles.
+So, i'll be performing the task on only one file but the process is same for multiple files using the same mathods.
+
+Step 2:Tokenize and delete stopwords
+	import nltk
+	downloads neaded:
+		stopwords
+	from nltk.corpus import stopwords,
+	from nltk.tokenize import word_tokenize
+	tokenize and delete stopwords 
+
+Step 3:Lemmatization:
+	downloads neaded:
+		wordnet
+		omw-1.4
+	from nltk.stem import WordNetLemmatizer
+Step 4:Remove special character
+	from sklearn.feature_extraction.text import TfidfVectorizer
+	from sklearn.cluster import KMeans
+	from sklearn.metrics import adjusted_rand_score
